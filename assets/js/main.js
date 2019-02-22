@@ -25,6 +25,7 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+			$(window).scrollTop(0);
 		});
 
 	// Scrolly.
